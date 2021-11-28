@@ -1,42 +1,39 @@
 @charset "ISO-8859-1";
-
-
-
-body {
-	 background-color: #CCCCCC;
-}
-table#listaus {
-	
- 	
- 	display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 4px;  
- 	
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;  
+  width: 50%;
 }
 
-thead {
-	border: black;
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;  
 }
 
+table tbody tr:nth-child(even){background-color: #f2f2f2;}
 
-input {
-	background-color: white;
-	border: 2px black;
-	
+table tbody tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #006D5B;
+  color: white;
 }
 
-td {
-	color: black;
-	text-align: center;
-	padding: 15px;
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
 }
 
-
-tbody {
-    background-color: #FAFAFA;
-  
+.oikealle{
+	text-align: right;	
 }
 
+#uusiAsiakas, #takaisin{
+	color: white;	
+	cursor: pointer;	
+}
 
